@@ -147,6 +147,6 @@ def delta():
     key_value = process_hwid(user_hwid)
     return jsonify({"key": key_value})
 
-if __name__ == '__main__':
+"""if __name__ == '__main__':
     port = int(os.environ.get("PORT", 80))  # Get port from environment variable or choose 80 as default
-    app.run(host='0.0.0.0', port=port, debug=True)
+    app.run(host='0.0.0.0', port=port, debug=True)"""
